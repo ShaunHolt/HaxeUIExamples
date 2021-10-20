@@ -1,0 +1,20 @@
+<hbox style="padding: 5px;" width="600" height="400">
+    <button text="Button" height="100%" onclick="this.width += 25" />
+    <vbox width="100%" height="100%">
+        <hbox width="100%">
+            <button text="Button" verticalAlign="top" />
+            <button text="Button" width="100%" onclick="this.height += 25" />
+            <button text="Button" verticalAlign="bottom" />
+        </hbox>
+        <hbox width="100%" height="100%">
+            <my-external-canvas id="ex1" htmlId="myCanvas1" width="50%" height="100%" />
+            <my-external-canvas id="ex2" htmlId="myCanvas2" width="50%" height="100%" />
+        </hbox>    
+        <hbox width="100%">
+            <button text="Button" verticalAlign="top" />
+            <button text="Button" width="100%" onclick="this.height += 25" />
+            <button text="Button" verticalAlign="bottom" />
+        </hbox>
+    </vbox>    
+    <button text="Button" height="100%" onclick="this.width += 25" />
+</hbox>
